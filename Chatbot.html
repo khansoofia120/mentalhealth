@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="stylesheet" href="Chatbot.css">
+
+</head>
+<body>
+    <div class="chatbot-popup">
+        <!-- chatbot header -->
+        <div class="chat-header">
+            <div class="header-info">
+                <img class="chatbot-logo" src="robot.png" alt="robo" height="80px">
+                <h2 class="logo-text">Chatbot</h2>
+            </div>
+            <button id="close-chatbot" class="material-icons" type="button">arrow_downward</button>
+                
+        </div>
+
+        <!-- Chatbot body -->
+        <div class="chat-body">
+            <div class="message bot-message">
+                <img class="bot-avatar" src="robot.png" alt="robo" height="80px">
+                <div class="message-text">
+                    Hey there👋<br>How can I help you today
+                </div>
+            </div>
+            <div class="message user-message">
+                <!-- <img src="robot.png" alt="robo" height="100px"> -->
+                <div class="message-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic rem blanditiis reiciendis excepturi laudantium
+                </div>
+            </div>
+            <div class="message bot-message thinking">
+                <img class="bot-avatar" src="robot.png" alt="robo" height="80px">
+                <div class="message-text">
+                    <div class="thinking-indicator">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <div class="chat-footer">
+        <form action="#" class="chat-form">
+            <textarea placeholder="Message...." class="message-input">        
+            </textarea>
+            <div class="chat-controls">
+                <button class="material-icons" type="button">mood</button>
+                <button class="material-icons" type="button">attach_file</button>
+                <button class="material-icons" type="submit">arrow_upward</button>
+            </div>
+        </form>
+
+    </div>
+    </div>
+
+</body>
+</html>
